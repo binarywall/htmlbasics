@@ -7,7 +7,115 @@
 </head>
 <body>
     
-    <table border='1' width='400' height='300'>
+    <table border='1' width='400' height='300' cellspacing="0" bgcolor="#f0f0f0" align="center" bordercolor="#f0f0f0">
+        <tr>
+            <td colspan='2'>
+                <fieldset>
+                    <legend>Paper</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <span>Size</span>
+                            </td>
+                            <td>
+                                <select name="" id="" style="width: 300px;">
+                                    <option value="A4">A4</option>
+                                    <option value="A5">A5</option>
+                                    <option value="B5">B5</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Souce</span>
+                            </td>
+                            <td>
+                                <select name="" id="" style="width: 300px;" disabled></select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+            <td rowspan='3'>
+                <fieldset>
+                    <legend>Preview</legend>
+                    <img src="img/pp.png" alt="">
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <fieldset>
+                    <legend>Orientation</legend>
+                    <table>
+                        <td>
+                            <input type="radio" name="ori" id="Portrait" checked>Portrait <br>
+                            <input type="radio" name="ori" id="Landscape">Landscape
+                        </td>
+                    </table>
+                </fieldset>
+            </td>
+            <td> 
+                <fieldset>
+                    <legend>Margins (inches)</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                Left
+                            </td>
+                            <td>
+                                <input type="text"style="width:50px" value="0.75">
+                            </td>
+                            <td>
+                                Right
+                            </td>
+                            <td>
+                                <input type="text" style="width:50px" value="0.75">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Top
+                            </td>
+                            <td>
+                                <input type="text"style="width:50px" value="1">
+                            </td>
+                            <td>
+                                Bottom
+                            </td>
+                            <td>
+                                <input type="text" style="width:50px" value="1">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan='2'> 
+                <table>
+                    <tr>
+                        <td style="width:400px">Header</td>
+                        <td><input type="text" name="" id="" style="width:300px"></td>
+                    </tr>
+                    <tr>
+                        <td>Footer</td>
+                        <td><input type="text" name="" id=""style="width:300px"></td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan='3' align="right"> 
+                <input type="button" value="OK" style="width:80px">    
+                <input type="button" value="Cancel" style="width:80px">    
+            </td>
+        </tr>
+
+        <!-- Table Format -->
+
+    <!-- <table border='1' width='400' height='300'>
         <tr>
             <td colspan='2'> &nbsp; </td>
             <td rowspan='3'> &nbsp; </td>
@@ -21,7 +129,7 @@
         </tr>
         <tr>
             <td colspan='3'> &nbsp; </td>
-        </tr>
+        </tr> -->
     </table>
 </body>
 </html>
